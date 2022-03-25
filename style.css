@@ -151,10 +151,11 @@ footer {
     letter-spacing: 2px;
 }
 .attribution a { 
-    color: var(--Blue); 
+    letter-spacing: normal;
+    font-size: 14px;
+    color: var(--Green); 
     font-weight: 700;
 }
-/* Error */
 label {
     display: flex;
     justify-content: right;
@@ -177,8 +178,9 @@ label {
 .error-message {
     opacity: 1;
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     body {
+        min-height: 100vh;
         background-image: url('images/bg-intro-desktop.png');
         justify-content: center;
     }
@@ -202,7 +204,6 @@ label {
 }
 @media (min-width: 1200px) {
     body {
-        background-size: stretch;
         display: block;
     }
     main {

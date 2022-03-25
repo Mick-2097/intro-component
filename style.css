@@ -156,6 +156,7 @@ footer {
     color: var(--Green); 
     font-weight: 700;
 }
+/* Errors */
 label {
     display: flex;
     justify-content: right;

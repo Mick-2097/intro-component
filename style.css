@@ -213,7 +213,6 @@ label {
         margin: auto;
         padding: 0;
         gap: 0;
-        transform: translateX(-14px);
     }
     .intro {
         box-sizing: border-box;

@@ -202,7 +202,7 @@ label {
 }
 @media (min-width: 1200px) {
     body {
-        background-size: contain;
+        background-size: stretch;
         display: block;
     }
     main {
@@ -214,16 +214,18 @@ label {
         transform: translateX(-14px);
     }
     .intro {
+        box-sizing: border-box;
         text-align: left;
     }
     .intro h1 {
-    margin: 66px 0 30px 0;
+    margin: 8px 0 28px 0;
     font-size: 50px;
-    line-height: 1.1;
+    line-height: 1.09;
     letter-spacing: -0.575px;
     }
     .intro p {
         line-height: 1.6;
+        margin: 0;
     }
     .offer {
         padding: 18px 0 14px 0;
